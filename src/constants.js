@@ -34,6 +34,7 @@ import svmLogo from './assets/education_logo/svm.png';
 import schoolLogo from './assets/education_logo/school.png';
 
 // Project Section Logo's
+import countrysearch from './assets/work_logo/countrysearch.png'
 import githubdetLogo from './assets/work_logo/gitlogimage.png';
 import weatherLogo from './assets/work_logo/weather.png';
 import todoLogo from './assets/work_logo/Todo snapshot.png';
@@ -141,8 +142,19 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
-    {
+     {
       id: 0,
+      title: "Search Country Details",
+      description:
+        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats,repositories,followers, and contributions.",
+      image: countrysearch,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
+      github: "http://github.com/ProhitM/serach_country_info",
+       webapp:"https://searchdeshinfo.netlify.app/" ,
+      
+    },
+     {
+      id: 1,
       title: "GitHub Profile Search",
       description:
         "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats,repositories,followers, and contributions.",
@@ -153,7 +165,7 @@ export const SkillsInfo = [
       
     },
     {
-      id: 1,
+      id: 2,
       title: "Weather APP",
       description:
         "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
@@ -163,7 +175,7 @@ export const SkillsInfo = [
       // webapp: ,
     },
     {
-      id: 2,
+      id: 3,
       title: "X.com(Twitter UI Clone)",
       description:
         "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
@@ -173,7 +185,7 @@ export const SkillsInfo = [
       // webapp: "",
     },
     {
-      id: 3,
+      id: 4,
       title: "iTask-Management Todo App",
       description:
         "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
@@ -183,7 +195,7 @@ export const SkillsInfo = [
       // webapp: "",
     },
     {
-      id: 4,
+      id: 5,
       title: "Real Estate Application",
       description:
         "Built a responsive real estate platform using React.js and Vite, featuring animated UI (Framer Motion), image sliders (Swiper.js), accessible accordions, and dynamic counters. Designed for scalability, responsiveness, and modern user experience",
